@@ -5,7 +5,8 @@ const CourseArea = () => {
   let courseData = [
     {
       id: 1,
-      image: "https://readymadeui.com/images/food11.webp",
+      image:
+        "https://www.creativeitinstitute.com/images/course/course_1662795698.jpg",
       name: "MERN Stack Development",
       topic:
         "Reactjs, Nodejs, Expressjs, Mongodb, React Native, Nextjs, so on...",
@@ -13,7 +14,8 @@ const CourseArea = () => {
     },
     {
       id: 2,
-      image: "https://readymadeui.com/images/food11.webp",
+      image:
+        "https://www.creativeitinstitute.com/images/course/course_1674371266.jpg",
       name: "Front-End Development with React.js",
       topic:
         "Figma, HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React.Js, Api ...",
@@ -21,14 +23,16 @@ const CourseArea = () => {
     },
     {
       id: 3,
-      image: "https://readymadeui.com/images/food11.webp",
+      image:
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN09T00bFUit9-LMCX3mPC0lqIMcJ5_ZCDcw&s",
       name: "Backend Development",
       topic: "JavaScript, Nodejs, Expressjs, Mongodb...",
       price: "38,000",
     },
     {
       id: 4,
-      image: "https://readymadeui.com/images/food11.webp",
+      image:
+        "https://www.creativeitinstitute.com/images/course/course_1728383943.jpg",
       name: "Full Stack Development",
       topic:
         "HTML, CSS,Bootstrap, TailwindCSS, JavaScript, Reactjs, Nodejs, Expressjs, Mongodb, so on...",
@@ -47,7 +51,10 @@ const CourseArea = () => {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-sm:gap-8">
               {courseData.map((item) => (
-                <div className="bg-white rounded overflow-hidden border-gray-400 border">
+                <div
+                  key={item.id}
+                  className="bg-white rounded overflow-hidden border-gray-400 border"
+                >
                   <img
                     src={item.image}
                     alt="Blog Post 1"

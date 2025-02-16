@@ -11,7 +11,7 @@ const Bannar = () => {
             <div className="text-center p-6 flex flex-col justify-center items-center">
               <h3 className="font-extrabold text-5xl text-black leading-tight">
                 Build Skills unlock your potential with
-                <span className="text-yellow-600">
+                <span className="text-yellow-700">
                   {" "}
                   RSCF - Rise Students Career Forum
                 </span>
