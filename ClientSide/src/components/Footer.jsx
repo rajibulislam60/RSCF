@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="lg:flex lg:items-center">
                 <ul className="flex space-x-6">
                   <li>
-                    <a href="javascript:void(0)">
+                    <a href="https://www.facebook.com/profile.php?id=61572916024259">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="fill-white hover:fill-white w-10 h-10"
@@ -32,7 +32,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="javascript:void(0)">
+                    <a href="https://www.linkedin.com/in/md-rajibul-islam-rajib-513229257/">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="fill-white hover:fill-white w-10 h-10"

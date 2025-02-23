@@ -19,12 +19,12 @@ function NavList() {
         color="gray"
         className="p-1 font-medium"
       >
-        <a
-          href="#"
+        <Link
+          to="/"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Home
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
@@ -32,12 +32,38 @@ function NavList() {
         color="gray"
         className="p-1 font-medium"
       >
-        <a
-          href="#"
+        <Link
+          to="/event"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
-          Students Service
-        </a>
+          Events
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="medium"
+        color="gray"
+        className="p-1 font-medium"
+      >
+        <Link
+          to="/campus"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          Campus
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="medium"
+        color="gray"
+        className="p-1 font-medium"
+      >
+        <Link
+          to="/notices"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          Notices
+        </Link>
       </Typography>
       <Typography
         as="li"
