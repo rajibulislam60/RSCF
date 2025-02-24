@@ -29,6 +29,7 @@ const Campus = () => {
     <div>
       <Container>
         <div className="font-[sans-serif] overflow-x-auto py-8">
+          <h2 className="font-bold text-2xl py-8">Campus Area Incharge</h2>
           <table className="min-w-full bg-white">
             <thead className="whitespace-nowrap">
               <tr>

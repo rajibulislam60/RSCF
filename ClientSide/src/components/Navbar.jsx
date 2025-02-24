@@ -71,12 +71,12 @@ function NavList() {
         color="gray"
         className="p-1 font-medium"
       >
-        <a
-          href="#"
+        <Link
+          to="/contactArea"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Contact
-        </a>
+        </Link>
       </Typography>
       <Typography
         as="li"
