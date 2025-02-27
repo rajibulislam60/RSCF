@@ -33,10 +33,36 @@ function NavList() {
         className="p-1 font-medium"
       >
         <Link
+          to="/about"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          About
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="medium"
+        color="gray"
+        className="p-1 font-medium"
+      >
+        <Link
           to="/event"
           className="flex items-center hover:text-blue-500 transition-colors"
         >
           Events
+        </Link>
+      </Typography>
+      <Typography
+        as="li"
+        variant="medium"
+        color="gray"
+        className="p-1 font-medium"
+      >
+        <Link
+          to="/course"
+          className="flex items-center hover:text-blue-500 transition-colors"
+        >
+          Courses
         </Link>
       </Typography>
       <Typography
@@ -77,19 +103,6 @@ function NavList() {
         >
           Contact
         </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="medium"
-        color="gray"
-        className="p-1 font-medium"
-      >
-        <a
-          href="#"
-          className="flex items-center hover:text-blue-500 transition-colors"
-        >
-          About
-        </a>
       </Typography>
     </ul>
   );

@@ -10,7 +10,7 @@ const CourseArea = () => {
       name: "MERN Stack Development",
       topic:
         "Reactjs, Nodejs, Expressjs, Mongodb, React Native, Nextjs, so on...",
-      price: "60,000",
+      price: "10,000",
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ const CourseArea = () => {
       name: "Front-End Development with React.js",
       topic:
         "Figma, HTML, CSS, Bootstrap, TailwindCSS, JavaScript, React.Js, Api ...",
-      price: "28,000",
+      price: "5,000",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const CourseArea = () => {
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN09T00bFUit9-LMCX3mPC0lqIMcJ5_ZCDcw&s",
       name: "Backend Development",
       topic: "JavaScript, Nodejs, Expressjs, Mongodb...",
-      price: "38,000",
+      price: "7,000",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const CourseArea = () => {
       name: "Full Stack Development",
       topic:
         "HTML, CSS,Bootstrap, TailwindCSS, JavaScript, Reactjs, Nodejs, Expressjs, Mongodb, so on...",
-      price: "75,000",
+      price: "12,000",
     },
   ];
   return (
@@ -68,12 +68,12 @@ const CourseArea = () => {
                     <p className="text-gray-800 text-[13px] font-semibold mt-4">
                       Course Fee {item.price} BDT
                     </p>
-                    <a
+                    {/* <a
                       href="javascript:void(0);"
                       className="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-yellow-600 hover:bg-yellow-700 text-white text-[13px]"
                     >
                       Click for Discount
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               ))}

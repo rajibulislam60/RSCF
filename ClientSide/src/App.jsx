@@ -7,6 +7,7 @@ import Event from "./components/Event";
 import Notices from "./pages/Notices";
 import Campus from "./pages/Campus";
 import ContactArea from "./components/ContactArea";
+import CourseArea from "./components/CourseArea";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Route path="/notices" element={<Notices />} />
           <Route path="/contactArea" element={<ContactArea />} />
           <Route path="/about" element={<About />} />
+          <Route path="/course" element={<CourseArea />} />
         </Route>
       </Routes>
     </Router>

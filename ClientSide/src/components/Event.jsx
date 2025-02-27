@@ -26,7 +26,7 @@ const Event = () => {
                     A Guide to Igniting Your Imagination
                   </h3>
                   <span className="text-sm block text-gray-400 mt-2">
-                    10 FEB 2023 | BY JOHN DOE
+                    10 May 2025 | BY RSCF
                   </span>
                   <p className="text-sm text-gray-500 mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -53,7 +53,7 @@ const Event = () => {
                     Hacks to Supercharge Your Day
                   </h3>
                   <span className="text-sm block text-gray-400 mt-2">
-                    7 JUN 2023 | BY MARK ADAIR
+                    7 JUN 2025 | BY Coder24
                   </span>
                   <p className="text-sm text-gray-500 mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -80,7 +80,7 @@ const Event = () => {
                     Trends and Predictions
                   </h3>
                   <span className="text-sm block text-gray-400 mt-2">
-                    5 OCT 2023 | BY SIMON KONECKI
+                    5 OCT 2025 | BY Coder24
                   </span>
                   <p className="text-sm text-gray-500 mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -107,7 +107,7 @@ const Event = () => {
                     Innovators Changing the Game
                   </h3>
                   <span className="text-sm block text-gray-400 mt-2">
-                    10 DEC 2023 | BY SIMON KONECKI
+                    10 Aug 2025 | BY Campus Ambassidor
                   </span>
                   <p className="text-sm text-gray-500 mt-4">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
